@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Exo+2:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+/* start main rulz */
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+    font-family: 'work sans';
+}
+/* end main rulz */
+/* start slider */
+.header .navbar {
+    background: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .slider {
+    background: url(../image/p-11.jpeg);
+    background-size: cover; 
+    background-position: center;
+    object-fit: cover; 
+    height: 600px;
+}
+.header .btn-slider {
+    text-align: center;
+    margin: 0;
+    padding-top: 250px;
+}
+.header .btn-slider h2 {
+    width: 550px;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Cairo', sans-serif;
+    padding: 3px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    user-select: none;
+}
+.header .btn-slider button {
+    background: none;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #AE41B6;
+    padding: 10px 20px;
+    border: 2px solid #AE41B6;
+    font-family: 'Cairo', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* end slider */
+/* start nav */
+.header .navbar h2 {
+    text-transform: capitalize;
+    user-select: none;
+    font-size: 30px;
+}
+.header .navbar h2 span {
+    color: #2ecc71;
+}
+.header .navbar ul {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    overflow: hidden;
+    list-style: none;
+    padding-top: 1.3%;
+}
+.header .navbar ul li {
+    padding-left: 20px;
+}
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    transition: all .5s;
+}
+.header .navbar ul li a:hover {
+    color: #2ecc71;
+}
+/* end nav */
+/* strart features */
+.features {
+    overflow: hidden;
+    padding: 20px 0;
+}
+.features .box {
+    width: calc(88% / 3);
+    margin-right: 4%;
+    height: 220px;
+}
+.features .box h2 {
+    text-transform: capitalize;
+    color: #444;
+    font-size: 27px;
+}
+.features .box p {
+    color: #555;
+    line-height: 1.35;
+}
+/* end features */
+/* strart about-me*/
+.aboutme {
+    overflow: hidden;
+    background: #eee;
+}
+.aboutme .img {
+    width: 30%;
+}
+.aboutme .img img {
+    width: 100%;
+    background-size: cover;
+}
+.aboutme .hobbies {
+    width: 70%;
+    padding-top: 30px;
+}
+.aboutme .hobbies h2 {
+    padding-left: 40px;
+    text-transform: capitalize;
+    color: #444;
+}
+.aboutme .hobbies > p {
+    color: #555;
+    padding-left: 40px;
+    line-height: 1.2;
+}
+.aboutme .icon {
+    overflow: hidden;
+    padding-left: 50px;
+}
+.aboutme .icon div {
+    width: 50%;
+    float: left;
+}
+.aboutme .icon .edit {
+    width: 10%;
+    margin-top: 6%;
+    margin-right: 10px;
+    color: #2ecc71;
+    font-size: 1.5rem;
+}
+.aboutme .icon .text {
+    width: 80%;
+}
+.aboutme .icon h3 {
+    color: #444;
+    text-transform: capitalize;
+    padding: 0;
+}
+.aboutme .icon p {
+    color: #555;
+}
+/* end about-me*/
+/* start skills */
+.skills {
+    overflow: hidden;
+    padding-top: 40px;
+}
+.skills .my-skills,
+.skills .proges {
+    width: 50%;
+    padding-bottom: 50px;
+}
+.skills .my-skills h2 {
+    text-transform: capitalize;
+    color: #444;
+    padding-bottom: 15px;
+}
+.skills .my-skills p {
+    color: #555;
+    line-height: 1.2;
+}
+.skills .my-skills p:last-of-type {
+    margin-top: 30px;
+}
+.skills .my-skills button {
+    padding: 12px 40px;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #fff;
+    border: 2px solid #2ecc71;
+    color: #29b663;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+/* start type proges */
+.skills .proges .type {
+    padding-left: 50px;
+}
+.skills .proges .type h3 {
+    text-transform: capitalize;
+    color: #444;
+}
+.skills .proges .type div {
+    height: 25px;
+    background: #f2f2f2;
+    margin-bottom: 40px;
+}
+.skills .proges .type div span {
+    height: 25px;
+    background-color: #29b663;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+/* end proges */
+/* end skills */
+/* start resume */
+.clearfix {
+    clear: both;
+}
+.resume {
+    overflow: hidden;
+    text-align: center;
+    background: #eee;
+    padding: 90px 0px;
+    margin-top: 20px;
+}
+.resume h2 {
+    text-transform: uppercase;
+    color: #444;
+}
+.resume p {
+    color: #666;
+    line-height: 1.6;
+}
+.resume button {
+    text-transform: capitalize;
+    color: #08ec67;
+    background: none;
+    border: 2px solid #09e665;
+    padding: 13px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.15rem;
+    border-radius: 3px;
+}
+/* end resume */
+/* start education */
+.education {
+    overflow: hidden;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.education .edu {
+    width: 50%;
+}
+.education .left-1 h2,
+.education .left-down h2 {
+    text-transform: capitalize;
+    color: #444;
+}
+.education .left-1 p,
+.education .left-down p {
+    color: #666;
+    line-height: 1.4;
+}
+.education .left-1 p:last-of-type,
+.education .left-down p:last-of-type {
+    margin-top: 30px;
+}
+.education .right {
+    width: 45%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.education .right h3 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #555;
+    margin-top: 12%;
+}
+.education .right span:first-of-type {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.education .right span:nth-of-type(2) {
+    text-transform: capitalize;
+}
+.education .right span {
+    color: #666;
+    display: inline-block;
+}
+.education .right span:last-of-type {
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+    background: #2ecc71;
+    padding: 4px 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 30px;
+    border-radius: 3px;
+} 
+.education .right p {
+    color: #666;
+    line-height: 1.5;
+}
+.education .right hr {
+    height: 1px;
+    background: #bbb;
+    border: 1;
+}
+/* end education */
+/* start info */
+.info {
+    overflow: hidden;
+    background: #eee;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 20px;
+}
+.info q {
+    color: #888;
+    font: italic 500 16px/1.7 'arial';
+}
+.info h3 {
+    margin-top: 3%;
+    color: #444;
+    text-transform: uppercase;
+}
+.info  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.info  ul li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin: 10px 1%;
+    border: 2px solid #0dac4f;
+    cursor: pointer;
+    transition: all .4s;
+}
+.info  ul li.active,
+.info  ul li:hover {
+    background: #2ecc71;
+}
+/* end info */
+/* start portfolio */
+.portfolio {
+    overflow: hidden;
+    margin-top: 70px;
+}
+.portfolio h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #444;
+    padding-bottom: 20px;
+}
+.portfolio p {
+    text-align: center;
+    color: #666;
+    line-height: 1.7;
+    padding-bottom: 30px;
+}
+.portfolio .photo {
+    display: flex;
+    overflow: hidden;
+}
+.portfolio .photo ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 10%;
+}
+.portfolio .photo ul li {
+    float: left;
+    width: calc((100% - 120px) / 3);
+    margin-top: 30px;
+}
+.portfolio .photo ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    padding: 3px;
+    border: 2px solid #ccc;
+}
+/* end portfolio */
+/* start contact */
+.contact {
+    overflow: hidden;
+    background: #1b1b1b;
+    color: #fff;
+}
+.contact .contact-me {
+    width: 50%;
+    padding-top: 50px;
+}
+.contact .contact-me h2 {
+    color: rgb(182, 177, 177);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+.contact .contact-me p {
+    color: #768a91;
+    line-height: 1.7;
+}
+.contact .contact-me address {
+    color: #768a91;
+    padding-bottom: 10px;
+}
+.contact .contact-me span {
+    line-height: 1.7;
+    color: #768a91;
+}
+.contact .contact-me span:nth-of-type(2) {
+    display: block;
+}
+.contact .contact-me span:nth-of-type(3) {
+    display: block;
+    margin-top: 30px;
+    color: #eee;
+    text-transform: capitalize;
+}
+.contact .contact-me span:nth-of-type(4) {
+    color: #eee;
+    text-transform: capitalize;
+}
+.contact .contact-me span:nth-of-type(3) > span,
+.contact .contact-me span:nth-of-type(4) > span {
+    margin-left: 50px;
+}
+.contact .contact-info {
+    padding-top: 11%;
+    padding-left: 10%;
+    width: 40%;
+}
+.contact .contact-info label {
+    color: #eee;
+    text-transform: capitalize;
+}
+.contact .contact-info input[type="name"],
+.contact .contact-info input[type="email"],
+.contact .contact-info textarea {
+    display: block;
+    margin-top: 10px;
+    background: #485559;
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 30px;
+    padding-left: 10px;
+    color: #ddd;
+    margin-bottom: 5%;
+}
+.contact .contact-info textarea {
+    height: 200px;
+    margin-bottom: 15%;
+}
+/* end contact */
+/* stert footer */
+footer {
+    overflow: hidden;
+    background: #444444;
+    text-align: center;
+    padding-top: 10px;
+}
+footer span {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+footer .icons {
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+footer .icons i {
+    font-size: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: rgb(214, 214, 214);
+}
+/* end footer */
+/* elemet glubal */
+.fl-float {
+    float: left;
+}
